@@ -164,7 +164,7 @@ h1 {
   align-items: center;
 }
 
-.bookmark-card {
+.card--bookmark {
   height: 40px;
   position: relative;
   top: -40px;
