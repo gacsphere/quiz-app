@@ -152,7 +152,26 @@ h1 {
   z-index: 20;
 }
 
-h2 {
+.card {
+  border-radius: 8px;
+  background-color: linen;
+  margin: 32px;
+  padding: 32px;
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookmark-card {
+  height: 40px;
+  position: relative;
+  top: -40px;
+  left: 40%;
+}
+
+p {
   font-family: Josefin Sans;
   font-size: 40px;
   line-height: 56px;
@@ -175,18 +194,6 @@ button {
   background-color: cornflowerblue;
 }
 
-.card {
-  border-radius: 8px;
-  background-color: linen;
-  margin: 32px;
-  padding: 32px;
-  position: relative;
-  top: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -198,13 +205,6 @@ button {
   color: white;
   background-color: lightslategrey;
   padding: 8px;
-  margin: 8px;
+  margin: 48px 8px 8px 8px;
   border-radius: 4px;
-}
-
-.bookmark-card {
-  height: 40px;
-  position: relative;
-  top: -40px;
-  left: 40%;
 }
