@@ -208,3 +208,19 @@ button {
   margin: 48px 8px 8px 8px;
   border-radius: 4px;
 }
+
+.navigation {
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly; /* distribute horizontally */
+  align-items: center; /* vertical */
+}
+
+nav img {
+  height: 40px;
+}
