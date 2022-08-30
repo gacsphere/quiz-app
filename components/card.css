@@ -1,7 +1,6 @@
 .card {
   border-radius: 8px;
-  border-style: 3px black;
-  background-color: linen;
+  background-color: var(--color-2);
   margin: 32px;
   padding: 32px;
   position: relative;
@@ -11,14 +10,28 @@
   align-items: center;
 }
 
-.card--bookmark {
-  height: 40px;
+.card__button__bookmark {
   position: relative;
   top: -40px;
   left: 40%;
+  background-color: transparent;
+  border-style: none;
 }
 
-p {
+.card__button__bookmark:hover {
+  background-color: transparent;
+}
+
+.card__bookmark {
+  height: 40px;
+  position: absolute;
+}
+
+.card__bookmark:hover {
+  height: 48px;
+}
+
+.card__p {
   font-family: Josefin Sans;
   font-size: 40px;
   line-height: 56px;
@@ -28,33 +41,33 @@ p {
   padding: 32px;
 }
 
-button {
+.card__button {
   font-family: Josefin Sans;
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
-  color: white;
+  color: var(--color-0-2);
   padding: 24px;
   margin: 32px;
   border-style: none;
   border-radius: 8px;
-  background-color: cornflowerblue;
+  background-color: var(--color-1);
 }
 
-button:hover {
-  background-color: midnightblue;
+.card__button:hover {
+  background-color: var(--color-1-b);
 }
 
-.tags {
+.card__tags {
   display: flex;
   flex-wrap: wrap;
   align-self: flex-start;
 }
 
-.tags a {
+.card__tag {
   font-weight: 200;
-  color: white;
-  background-color: lightslategrey;
+  color: var(--color-0-2);
+  background-color: var(--color-3);
   padding: 8px;
   margin: 48px 8px 8px 8px;
   border-radius: 4px;
