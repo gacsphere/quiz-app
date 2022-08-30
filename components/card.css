@@ -10,11 +10,25 @@
   align-items: center;
 }
 
-.card__bookmark {
-  height: 40px;
+.card__button__bookmark {
   position: relative;
   top: -40px;
-  left: 48%;
+  left: 40%;
+  background-color: transparent;
+  border-style: none;
+}
+
+.card__button__bookmark:hover {
+  background-color: transparent;
+}
+
+.card__bookmark {
+  height: 40px;
+  position: absolute;
+}
+
+.card__bookmark:hover {
+  height: 48px;
 }
 
 .card__p {
@@ -40,7 +54,7 @@
   background-color: var(--color-1);
 }
 
-button:hover {
+.card__button:hover {
   background-color: var(--color-1-b);
 }
 
@@ -50,7 +64,7 @@ button:hover {
   align-self: flex-start;
 }
 
-.card__tags a {
+.card__tag {
   font-weight: 200;
   color: var(--color-0-2);
   background-color: var(--color-3);
