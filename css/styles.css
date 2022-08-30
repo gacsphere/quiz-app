@@ -1,3 +1,7 @@
+@import url(components/header.css);
+@import url(components/card.css);
+@import url(components/navbar.css);
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -134,97 +138,4 @@
     /* Safari, Android, iOS */
       url("../fonts/josefin-sans-v25-latin-700italic.svg#JosefinSans")
       format("svg"); /* Legacy iOS */
-}
-
-h1 {
-  font-family: Josefin Sans;
-  font-weight: 700;
-  font-size: 32px;
-  text-transform: uppercase;
-  color: white;
-  padding: 24px;
-  width: 100%;
-  height: 80px;
-  text-align: center;
-  background-color: cornflowerblue;
-  position: fixed;
-  top: 0;
-  z-index: 20;
-}
-
-.card {
-  border-radius: 8px;
-  background-color: linen;
-  margin: 32px;
-  padding: 32px;
-  position: relative;
-  top: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card--bookmark {
-  height: 40px;
-  position: relative;
-  top: -40px;
-  left: 40%;
-}
-
-p {
-  font-family: Josefin Sans;
-  font-size: 40px;
-  line-height: 56px;
-  font-weight: 200;
-  text-align: center;
-  margin: 0;
-  padding: 32px;
-}
-
-button {
-  font-family: Josefin Sans;
-  font-size: 24px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: white;
-  padding: 24px;
-  margin: 32px;
-  border-style: none;
-  border-radius: 8px;
-  background-color: cornflowerblue;
-}
-
-button:hover {
-  background-color: midnightblue;
-}
-
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  align-self: flex-start;
-}
-
-.tags a {
-  font-weight: 200;
-  color: white;
-  background-color: lightslategrey;
-  padding: 8px;
-  margin: 48px 8px 8px 8px;
-  border-radius: 4px;
-}
-
-.navigation {
-  background-color: cornflowerblue;
-  width: 100%;
-  height: 80px;
-  position: fixed;
-  bottom: 0;
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly; /* distribute horizontally */
-  align-items: center; /* vertical */
-}
-
-nav img {
-  height: 40px;
 }
