@@ -194,6 +194,10 @@ button {
   background-color: cornflowerblue;
 }
 
+button:hover {
+  background-color: midnightblue;
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
