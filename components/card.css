@@ -1,5 +1,6 @@
 .card {
   border-radius: 8px;
+  border-style: 3px black;
   background-color: linen;
   margin: 32px;
   padding: 32px;
