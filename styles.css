@@ -8,6 +8,15 @@
   font-family: "Josefin Sans";
 }
 
+:root {
+  --color-0-1: black;
+  --color-0-2: white;
+  --color-1: cornflowerblue;
+  --color-1-b: midnightblue;
+  --color-2: linen;
+  --color-3: lightslategrey;
+}
+
 /* bangers-regular - latin */
 @font-face {
   font-family: "Bangers";
