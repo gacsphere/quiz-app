@@ -11,8 +11,11 @@
 }
 
 nav img {
-  height: 40px;
-  /* padding: 20px; */
+  height: 80px;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  aspect-ratio: 1;
 }
 
 nav img:hover {
