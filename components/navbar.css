@@ -1,13 +1,13 @@
 .navigation {
   background-color: var(--color-1);
-  width: 100%;
+  width: 100vw;
   height: 80px;
   position: fixed;
   bottom: 0;
   list-style: none;
   display: flex;
   justify-content: space-evenly; /* distribute horizontally */
-  align-items: center; /* vertical */
+  /* align-items: center; /* vertical */
 }
 
 nav img {
