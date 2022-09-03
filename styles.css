@@ -17,6 +17,10 @@
   --color-3: lightslategrey;
 }
 
+/* .main {
+  overflow: auto;
+} */
+
 /* bangers-regular - latin */
 @font-face {
   font-family: "Bangers";

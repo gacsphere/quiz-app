@@ -64,8 +64,9 @@
   background-color: var(--color-1);
 }
 
-.card__button:hover {
+.card__button-answer:hover {
   background-color: var(--color-1-b);
+  cursor: pointer;
 }
 
 .card__tags {
