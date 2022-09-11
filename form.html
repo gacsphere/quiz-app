@@ -5,77 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
-    <script src="./index.js" defer></script>
+    <script src="form.js" defer></script>
     <title>Quiz App</title>
   </head>
   <body>
     <header>
       <h1>Quiz App</h1>
     </header>
-    <main class="main">
-      <ul class="card-list">
-        
-          <!--
-  FIRST CARD
--->     
-        <li class="card-list__item">
-          <section class="card">
-            <p class="card__question">What property flips the axes in flexbox?</p>
-            <button class="card__button-answer" data-js="button-answer">Show Answer</button>
-            <p class="card__answer card__answer--off" data-js="answer">flex-direction Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quam nisi sequi aliquid vitae sit temporibus mollitia ipsum fugit eum illum sint quas iste tenetur, accusamus alias. Deleniti, natus sequi.</p>
-            <ul class="card__tag-list">
-              <li class="card__tag-list-item">#html</li>
-              <li class="card__tag-list-item">#flexbox</li>
-              <li class="card__tag-list-item">#css</li>
-            </ul>
-            <div class="card__button-bookmark">
-              <button class="bookmark" data-js="bookmark-button">
-                <svg class="bookmark__icon" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 0 24 24" width="48"><path d="M0 0h24v24H0z" fill="none"/><path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
-              </button>
-            </div>
-          </section>
-        </li>
-<!--
-  SECOND CARD
--->     
-        <li class="card-list__item">
-          <section class="card">
-            <p class="card__question">What property flips the axes in flexbox?</p>
-            <button class="card__button-answer" data-js="button-answer">Show Answer</button>
-            <p class="card__answer card__answer--off" data-js="answer">flex-direction Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quam nisi sequi aliquid vitae sit temporibus mollitia ipsum fugit eum illum sint quas iste tenetur, accusamus alias. Deleniti, natus sequi.</p>
-            <ul class="card__tag-list">
-              <li class="card__tag-list-item">#html</li>
-              <li class="card__tag-list-item">#flexbox</li>
-              <li class="card__tag-list-item">#css</li>
-            </ul>
-            <div class="card__button-bookmark">
-              <button class="bookmark" data-js="bookmark-button">
-                <svg class="bookmark__icon" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 0 24 24" width="48"><path d="M0 0h24v24H0z" fill="none"/><path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
-              </button>
-            </div>
-          </section>
-        </li>
-<!--
-  THIRD CARD
--->     
-        <li class="card-list__item">
-          <section class="card">
-            <p class="card__question">What property flips the axes in flexbox?</p>
-            <button class="card__button-answer" data-js="button-answer">Show Answer</button>
-            <p class="card__answer card__answer--off" data-js="answer">flex-direction Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quam nisi sequi aliquid vitae sit temporibus mollitia ipsum fugit eum illum sint quas iste tenetur, accusamus alias. Deleniti, natus sequi.</p>
-            <ul class="card__tag-list">
-              <li class="card__tag-list-item">#html</li>
-              <li class="card__tag-list-item">#flexbox</li>
-              <li class="card__tag-list-item">#css</li>
-            </ul>
-            <div class="card__button-bookmark">
-              <button class="bookmark" data-js="bookmark-button">
-                <svg class="bookmark__icon" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 0 24 24" width="48"><path d="M0 0h24v24H0z" fill="none"/><path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
-              </button>
-            </div>
-          </section>
-        </li>
-      </ul>
+    <main class="form" data-js="main">
+      <form aria-label="generate new questions" data-js="form">
+        <br>
+          <label for="question-input">Your question:</label>
+          <textarea
+            name="questionInput"
+            id="question-input"
+            rows="3"
+            aria-label="input field for new question"
+            data-js="questionInput"
+            maxlength="150"
+          >
+          </textarea>
+          <small class="form__character-count"
+            >(<span data-js="amountLeft"></span> characters left)</small
+          ></br>
+          <label for="answer-input">Your answer:</label>
+          <textarea
+            name="answerInput"
+            id="answer-input"
+            rows="3"
+            aria-label="input field for answer"
+            data-js="answerInput"
+            maxlength="150"
+          >
+          </textarea>
+          
+          <label for="tag-input">Tag:</label>
+          <input
+            type="text"
+            name="tagInput"
+            id="tag-input"
+            class="tag-input"
+            data-js="tagInput"
+          />
+        </fieldset>
+        <button type="submit" class="card__button-answer">Submit</button>
+      </form>
+      <ul data-js="new-card"></ul>
     </main>
 
 <!-- 
