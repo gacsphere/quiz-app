@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M200 344V280H136C122.7 280 112 269.3 112 256C112 242.7 122.7 232 136 232H200V168C200 154.7 210.7 144 224 144C237.3 144 248 154.7 248 168V232H312C325.3 232 336 242.7 336 256C336 269.3 325.3 280 312 280H248V344C248 357.3 237.3 368 224 368C210.7 368 200 357.3 200 344zM0 96C0 60.65 28.65 32 64 32H384C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96zM48 96V416C48 424.8 55.16 432 64 432H384C392.8 432 400 424.8 400 416V96C400 87.16 392.8 80 384 80H64C55.16 80 48 87.16 48 96z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="448px" height="512px" viewBox="0 0 448 512" style="enable-background:new 0 0 448 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M200,344v-64h-64c-13.3,0-24-10.7-24-24c0-13.3,10.7-24,24-24h64v-64c0-13.3,10.7-24,24-24s24,10.7,24,24v64h64
+	c13.3,0,24,10.7,24,24c0,13.3-10.7,24-24,24h-64v64c0,13.3-10.7,24-24,24S200,357.3,200,344z M0,96c0-35.3,28.6-64,64-64h320
+	c35.3,0,64,28.7,64,64v320c0,35.3-28.7,64-64,64H64c-35.3,0-64-28.7-64-64V96z M48,96v320c0,8.8,7.2,16,16,16h320
+	c8.8,0,16-7.2,16-16V96c0-8.8-7.2-16-16-16H64C55.2,80,48,87.2,48,96z"/>
+</svg>
