@@ -7,7 +7,6 @@
 }
 
 .bookmark:hover {
-  background-color: transparent;
   cursor: pointer;
 }
 
@@ -17,6 +16,10 @@
 
 .bookmark__icon {
   /*fill: currentcolor;*/
+}
+
+.bookmark__icon:hover {
+  height: 56px;
 }
 
 /*

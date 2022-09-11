@@ -18,15 +18,9 @@
   background-color: transparent;
   border-color: none;
   border-style: none;
-  /*position: relative;
-  top: -40px;
-  left: 40%;
-  background-color: transparent;
-  border-style: none;*/
 }
 
 .card__question {
-  font-family: "Josefin Sans";
   font-size: 2.5rem;
   line-height: 3rem;
   font-weight: 200;
@@ -36,8 +30,6 @@
 }
 
 .card__answer {
-  font-family: "Josefin Sans";
-  font-style: italic;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 400;
@@ -50,6 +42,7 @@
 }
 
 .card__button-answer {
+  font-family: "Josefin Sans";
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -74,7 +67,6 @@
 }
 
 .card__tag-list-item {
-  font-family: "Bangers";
   font-weight: 200;
   color: var(--color-0-2);
   background-color: var(--color-3);

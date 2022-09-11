@@ -6,70 +6,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
     <script src="./index.js" defer></script>
-    <title>Document</title>
+    <title>Quiz App</title>
   </head>
   <body>
     <header>
       <h1>Quiz App</h1>
     </header>
     <main class="main">
-      <section class="card">
-        <button class="card__button-bookmark">
-          <img
-          src="images/bookmark-solid-black.svg"
-          class="card__bookmark"
-          alt="bookmark"
-        />
-        </button>
-        <p class="card__question">What property flips the axes in flexbox?</p>
-        <button class="card__button-answer" data-js="button-answer">Show Answer</button>
-        <p class="card__answer card__answer--off" data-js="answer">flex-direction Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quam nisi sequi aliquid vitae sit temporibus mollitia ipsum fugit eum illum sint quas iste tenetur, accusamus alias. Deleniti, natus sequi.</p>
-        <div class="card__tags">
-          <a class="card__tag card__tag__anchor-html">#html</a>
-          <a class="card__tag card__tag__anchor-flexbox">#flexbox</a>
-          <a class="card__tag card__tag__anchor-css">#css</a>
-        </div>
-      </section>
-      <section class="card">
-        <button class="card__button-bookmark">
-          <img
-          src="images/bookmark-outline-black.svg"
-          class="card__bookmark"
-          alt="bookmark"
-        />
-        </button>
-
-        <p class="card__question">Lorem ipsum?</p>
-        <button class="card__button-answer" data-js="button-answer">Show Answer</button>
-        <p class="card__answer card__answer--off" data-js="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quam nisi sequi aliquid vitae sit temporibus mollitia ipsum fugit eum illum sint quas iste tenetur, accusamus alias. Deleniti, natus sequi.</p>
-        <div class="card__tags">
-          <a class="card__tag card__tag__anchor-html">#html</a>
-          <a class="card__tag card__tag__anchor-flexbox">#flexbox</a>
-          <a class="card__tag card__tag__anchor-css">#css</a>
-        </div>
-      </section>
-      
+      <ul class="card-list">
+        
+          <!--
+  FIRST CARD
+-->     
+        <li class="card-list__item">
+          <section class="card">
+            <p class="card__question">What property flips the axes in flexbox?</p>
+            <button class="card__button-answer" data-js="button-answer">Show Answer</button>
+            <p class="card__answer card__answer--off" data-js="answer">flex-direction Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quam nisi sequi aliquid vitae sit temporibus mollitia ipsum fugit eum illum sint quas iste tenetur, accusamus alias. Deleniti, natus sequi.</p>
+            <ul class="card__tag-list">
+              <li class="card__tag-list-item">#html</li>
+              <li class="card__tag-list-item">#flexbox</li>
+              <li class="card__tag-list-item">#css</li>
+            </ul>
+            <div class="card__button-bookmark">
+              <button class="bookmark" data-js="bookmark-button">
+                <svg class="bookmark__icon" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 0 24 24" width="48"><path d="M0 0h24v24H0z" fill="none"/><path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
+              </button>
+            </div>
+          </section>
+        </li>
+<!--
+  SECOND CARD
+-->     
+        <li class="card-list__item">
+          <section class="card">
+            <p class="card__question">What property flips the axes in flexbox?</p>
+            <button class="card__button-answer" data-js="button-answer">Show Answer</button>
+            <p class="card__answer card__answer--off" data-js="answer">flex-direction Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quam nisi sequi aliquid vitae sit temporibus mollitia ipsum fugit eum illum sint quas iste tenetur, accusamus alias. Deleniti, natus sequi.</p>
+            <ul class="card__tag-list">
+              <li class="card__tag-list-item">#html</li>
+              <li class="card__tag-list-item">#flexbox</li>
+              <li class="card__tag-list-item">#css</li>
+            </ul>
+            <div class="card__button-bookmark">
+              <button class="bookmark" data-js="bookmark-button">
+                <svg class="bookmark__icon" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 0 24 24" width="48"><path d="M0 0h24v24H0z" fill="none"/><path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
+              </button>
+            </div>
+          </section>
+        </li>
+<!--
+  THIRD CARD
+-->     
+        <li class="card-list__item">
+          <section class="card">
+            <p class="card__question">What property flips the axes in flexbox?</p>
+            <button class="card__button-answer" data-js="button-answer">Show Answer</button>
+            <p class="card__answer card__answer--off" data-js="answer">flex-direction Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quam nisi sequi aliquid vitae sit temporibus mollitia ipsum fugit eum illum sint quas iste tenetur, accusamus alias. Deleniti, natus sequi.</p>
+            <ul class="card__tag-list">
+              <li class="card__tag-list-item">#html</li>
+              <li class="card__tag-list-item">#flexbox</li>
+              <li class="card__tag-list-item">#css</li>
+            </ul>
+            <div class="card__button-bookmark">
+              <button class="bookmark" data-js="bookmark-button">
+                <svg class="bookmark__icon" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 0 24 24" width="48"><path d="M0 0h24v24H0z" fill="none"/><path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
+              </button>
+            </div>
+          </section>
+        </li>
+      </ul>
     </main>
-    <footer>
-      <nav>
-        <ul class="navigation">
-          <li>
+
+<!-- 
+  Navigation
+-->
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__list-item">
             <a href="./index.html" aria-label="home-page">
                 <img src="images/house-solid-white.svg" alt="home button" />
             </a>
           </li>
-          <li>
+          <li class="navigation__list-item">
             <a href="./bookmarks.html" aria-label="home-page">
                 <img src="images/bookmark-outline-white.svg" alt="home button" />
             </a>
           </li>
-          <li>
+          <li class="navigation__list-item">
             <a href="./profile.html" aria-label="profile-page"></a>
                 <img src="images/user-outline-white.svg" alt="profile-page button" />
             </a>
           </li>
         </ul>
       </nav>
-    </footer>
   </body>
 </html>
