@@ -1,0 +1,37 @@
+.bookmark {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: transparent;
+  color: var(--white);
+  background-color: transparent;
+  border-color: none;
+  border-style: none;
+}
+
+.bookmark:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+/*
+.bookmark--active {
+  color: var(--black);
+}
+
+.bookmark__icon {
+  fill: currentcolor;
+}*/
+/*
+.card__button-bookmark:hover {
+  cursor: pointer;
+}
+
+.card__bookmark {
+  height: 40px;
+  position: absolute;
+}
+
+.card__bookmark:hover {
+  height: 48px;
+}
+*/

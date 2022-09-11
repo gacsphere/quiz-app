@@ -1,4 +1,5 @@
 .card {
+  font-family: "Josefin Sans";
   border-radius: 8px;
   background-color: var(--color-2);
   margin: 32px;
@@ -11,29 +12,19 @@
 }
 
 .card__button-bookmark {
-  position: relative;
+  position: absolute;
+  right: 1rem;
+  top: -1.5rem;
+
+  /*position: relative;
   top: -40px;
   left: 40%;
   background-color: transparent;
-  border-style: none;
-}
-
-.card__button-bookmark:hover {
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.card__bookmark {
-  height: 40px;
-  position: absolute;
-}
-
-.card__bookmark:hover {
-  height: 48px;
+  border-style: none;*/
 }
 
 .card__question {
-  font-family: Josefin Sans;
+  font-family: "Josefin Sans";
   font-size: 2.5rem;
   line-height: 3rem;
   font-weight: 200;
@@ -43,6 +34,8 @@
 }
 
 .card__answer {
+  font-family: "Josefin Sans";
+  font-style: italic;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 400;
@@ -64,6 +57,7 @@
   border-style: none;
   border-radius: 8px;
   background-color: var(--color-1);
+  transition: 0.3s ease-in-out;
 }
 
 .card__button-answer:hover {
@@ -71,13 +65,14 @@
   cursor: pointer;
 }
 
-.card__tags {
+.card__tag-list {
   display: flex;
   flex-wrap: wrap;
   align-self: flex-start;
 }
 
-.card__tag {
+.card__tag-list-item {
+  font-family: "Bangers";
   font-weight: 200;
   color: var(--color-0-2);
   background-color: var(--color-3);
