@@ -15,7 +15,9 @@
   position: absolute;
   right: 1rem;
   top: -1.5rem;
-
+  background-color: transparent;
+  border-color: none;
+  border-style: none;
   /*position: relative;
   top: -40px;
   left: 40%;

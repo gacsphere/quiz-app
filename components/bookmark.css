@@ -1,9 +1,6 @@
 .bookmark {
   border: none;
   padding: 0.5rem;
-  border-radius: 50%;
-  background-color: transparent;
-  color: var(--white);
   background-color: transparent;
   border-color: none;
   border-style: none;
@@ -13,14 +10,15 @@
   background-color: transparent;
   cursor: pointer;
 }
-/*
+
 .bookmark--active {
   color: var(--black);
 }
 
 .bookmark__icon {
-  fill: currentcolor;
-}*/
+  /*fill: currentcolor;*/
+}
+
 /*
 .card__button-bookmark:hover {
   cursor: pointer;
