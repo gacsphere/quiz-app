@@ -2,8 +2,8 @@
   font-family: "Josefin Sans";
   border-radius: 8px;
   background-color: var(--color-2);
-  margin: 32px;
-  padding: 32px;
+  margin: 2rem;
+  padding: 2rem;
   position: relative;
   top: 5rem;
   display: flex;
